@@ -5,9 +5,33 @@
              x:Class="bmiPCL.MainPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+
+            <Label Text="身長(cm)"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+
+            <Entry Text="170"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                x:Name="Height"
+                   />
+
+            <Label Text="体重(kg)"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Entry Text="50"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                x:Name="Weight" 
+                   />
+
+            <Button Text="BMIの計算結果"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                    Clicked="Button_Clicked"/>
+
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
