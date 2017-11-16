@@ -16,8 +16,8 @@ namespace bmiPCL
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            double h = double.Parse(Height.Text);
-            double w = double.Parse(Weight.Text);
+            double h = double.Parse(height.Text);
+            double w = double.Parse(weight.Text);
 
             if (h >= 3)
             {
@@ -61,35 +61,43 @@ namespace bmiPCL
             switch (intValue)
             {
                 case 1:
-                    DisplayAlert("BMI：" + bmi.ToString(), "16.00未満　痩せすぎ", "OK");
+                    //DisplayAlert("BMI：" + bmi.ToString(), "16.00未満　痩せすぎ", "OK");
+                    kekka.Text = "BMI：" + bmi.ToString()+ "16.00未満　痩せすぎ";
                     break;
 
                 case 2:
-                    DisplayAlert("BMI：" + bmi.ToString(), "16～17未満　痩せ", "OK");
+                    //DisplayAlert("BMI：" + bmi.ToString(), "16～17未満　痩せ", "OK");
+                    kekka.Text = "BMI：" + bmi.ToString() + "16～17未満　痩せ";
                     break;
 
                 case 3:
-                    DisplayAlert("BMI：" + bmi.ToString(), "17～18.5未満	低体重(痩せぎみ)", "OK");
+                    //DisplayAlert("BMI：" + bmi.ToString(), "17～18.5未満	低体重(痩せぎみ)", "OK");
+                    kekka.Text = "BMI：" + bmi.ToString() + "17～18.5未満	低体重(痩せぎみ)";
                     break;
 
                 case 4:
-                    DisplayAlert("BMI：" + bmi.ToString(), "18.5～25未満　	普通体重", "OK");
+                    //DisplayAlert("BMI：" + bmi.ToString(), "18.5～25未満　	普通体重", "OK");
+                    kekka.Text = "BMI：" + bmi.ToString() + "18.5～25未満　	普通体重";
                     break;
 
                 case 5:
-                    DisplayAlert("BMI：" + bmi.ToString(), "25～30未満	肥満(1度)", "OK");
+                    //DisplayAlert("BMI：" + bmi.ToString(), "25～30未満	肥満(1度)", "OK");
+                    kekka.Text = "BMI：" + bmi.ToString() + "25～30未満	肥満(1度)";
                     break;
 
                 case 6:
-                    DisplayAlert("BMI：" + bmi.ToString(), "30～35未満	肥満(2度)", "OK");
+                    //DisplayAlert("BMI：" + bmi.ToString(), "30～35未満	肥満(2度)", "OK");
+                    kekka.Text = "BMI：" + bmi.ToString() + "30～35未満	肥満(2度)";
                     break;
 
                 case 7:
-                    DisplayAlert("BMI：" + bmi.ToString(), "35～40未満	肥満(3度)", "OK");
+                    //DisplayAlert("BMI：" + bmi.ToString(), "35～40未満	肥満(3度)", "OK");
+                    kekka.Text = "BMI：" + bmi.ToString() + "35～40未満	肥満(3度)";
                     break;
 
                 case 8:
-                    DisplayAlert("BMI：" + bmi.ToString(), "40以上	肥満(4度)", "OK");
+                    //DisplayAlert("BMI：" + bmi.ToString(), "40以上	肥満(4度)", "OK");
+                    kekka.Text = "BMI：" + bmi.ToString() + "40以上	肥満(4度)";
                     break;
             }
         }

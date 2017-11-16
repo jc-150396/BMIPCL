@@ -13,7 +13,7 @@
             <Entry Text="170"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand"
-                x:Name="Height" />
+                x:Name="height" />
 
             <Label Text="体重(kg)"
                 VerticalOptions="CenterAndExpand" 
@@ -22,15 +22,24 @@
             <Entry Text="50"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand"
-                x:Name="Weight"  />
+                x:Name="weight"  />
 
             
             <Button Text="BMIの計算結果"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand"
                     Clicked="Button_Clicked"/>
+            
+        </StackLayout>
 
+        <StackLayout>
+
+            <Label Text="結果を表示" 
+                  VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="CenterAndExpand"
+                   x:Name="kekka"/>
 
         </StackLayout>
+        
     </ContentPage.Content>
 </ContentPage>
