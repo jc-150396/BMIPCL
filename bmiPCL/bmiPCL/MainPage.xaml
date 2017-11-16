@@ -26,6 +26,7 @@
                 x:Name="Weight" 
                    />
 
+            
             <Button Text="BMIの計算結果"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand"
