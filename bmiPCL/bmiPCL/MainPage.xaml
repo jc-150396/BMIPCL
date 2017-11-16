@@ -13,8 +13,7 @@
             <Entry Text="170"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand"
-                x:Name="Height"
-                   />
+                x:Name="Height" />
 
             <Label Text="体重(kg)"
                 VerticalOptions="CenterAndExpand" 
@@ -23,8 +22,7 @@
             <Entry Text="50"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand"
-                x:Name="Weight" 
-                   />
+                x:Name="Weight"  />
 
             
             <Button Text="BMIの計算結果"
