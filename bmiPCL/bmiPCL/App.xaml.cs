@@ -13,7 +13,7 @@ namespace bmiPCL
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new bmiPCL.MainPage();
         }
 
         protected override void OnStart()
